@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="64" viewBox="0 0 720 64" role="img" aria-labelledby="title desc">
+  <title id="title">Animated pastel sparkle divider</title>
+  <desc id="desc">Pastel stars softly twinkle around a decorative divider.</desc>
+
+  <path d="M48 32h250" stroke="#9abfb2" stroke-width="1.5" stroke-linecap="round" opacity=".42"/>
+  <path d="M422 32h250" stroke="#9b94cf" stroke-width="1.5" stroke-linecap="round" opacity=".42"/>
+
+  <g transform="translate(360 32)">
+    <path d="M0-14 3.5-3.5 14 0 3.5 3.5 0 14-3.5 3.5-14 0-3.5-3.5Z" fill="#f3a7b9">
+      <animateTransform attributeName="transform" type="scale" values=".72;1.08;.72" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".58;1;.58" dur="2.4s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(315 19)">
+    <path d="M0-7 2-2 7 0 2 2 0 7-2 2-7 0-2-2Z" fill="#8f88c4">
+      <animateTransform attributeName="transform" type="rotate" values="0;45;0" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g transform="translate(405 45)">
+    <path d="M0-6 1.8-1.8 6 0 1.8 1.8 0 6-1.8 1.8-6 0-1.8-1.8Z" fill="#78a99b">
+      <animateTransform attributeName="transform" type="rotate" values="0;-55;0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;.25;1" dur="2.1s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <circle cx="286" cy="38" r="3" fill="#efc5cf">
+    <animate attributeName="r" values="2;4;2" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="438" cy="22" r="3" fill="#a8cdbf">
+    <animate attributeName="r" values="4;2;4" dur="2.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;.3;1" dur="2.7s" repeatCount="indefinite"/>
+  </circle>
+</svg>
