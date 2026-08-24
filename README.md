@@ -1,7 +1,7 @@
 <div align="center">
   <img src="./assets/anime-hero.jpg" width="100%" alt="Anime girl resting in a sunlit forest" />
 
-  <h1>Hi, I'm Ancuo Loeve ✦</h1>
+  <h1>Hi, I'm Ancuo Loewe ✦</h1>
 
   <img src="https://readme-typing-svg.demolab.com?font=Nunito&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=900&amp;color=8D7CC2&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=AI+Agent+Explorer+%E2%9C%A6;Full-stack+Learner+%E2%9C%A6;Building+my+own+little+world..." alt="Typing animation introducing Ancuo Loeve" />
 
