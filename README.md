@@ -18,7 +18,7 @@
 
 ## 🌸 About Me
 
-Hi, I'm **Ancuo Loeve**, a builder who learns by making things.
+Hi, I'm **Ancuo Loewe**, a builder who learns by making things.
 
 I'm currently exploring **AI Agents and full-stack development** while strengthening my computer science fundamentals. I enjoy turning ideas into clear, reliable tools that people can actually use.
 
