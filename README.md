@@ -29,7 +29,7 @@ I'm currently exploring **AI Agents and full-stack development** while strengthe
 ## 🎐 Character Card
 
 ```yaml
-name: Ancuo Loeve
+name: Ancuo Loewe
 class: Beginner / Learner
 current_quest: AI-powered personal tools
 interests:
