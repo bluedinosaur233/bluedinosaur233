@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Ancuo Loewe · Profile V2 Preview</title><meta name="color-scheme" content="light dark"><style>
+:root{--bg:#fff;--sub:#f6f8fa;--ink:#1f2328;--muted:#656d76;--line:#d0d7de;--blue:#0969da}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}body.dark{--bg:#0d1117;--sub:#161b22;--ink:#e6edf3;--muted:#8b949e;--line:#30363d;--blue:#58a6ff}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}button{font:inherit;color:inherit;cursor:pointer}button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid #279cd0;outline-offset:4px}.topbar{min-height:70px;padding:15px 30px;border-bottom:1px solid var(--line);display:flex;gap:14px;align-items:center;background:var(--sub)}.mark{width:29px;height:29px;display:grid;place-items:center;background:#242832;color:white;font-size:12px;font-weight:800;border-radius:50%}.topbar strong{font-size:14px}.topbar>span:last-child{margin-left:auto;color:var(--muted);font-size:11px}.controls{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:18px 30px;border-bottom:1px solid var(--line);flex-wrap:wrap}.controls-label{font-size:11px;color:var(--muted)}.toggle-group{display:flex;align-items:center;gap:8px}.control{padding:7px 13px;border:1px solid var(--line);border-radius:6px;background:var(--bg);font-size:12px}.control.active{border-color:#199fc8;background:#eaf7fc;color:#126a8c}.dark .control.active{background:#123344;color:#8fdfff}.tabs{padding:20px 30px 0;display:flex;gap:30px;max-width:1260px;margin:auto;border-bottom:1px solid var(--line)}.tabs>a{font-size:13px;color:var(--ink);padding:10px 5px 15px}.tabs>a.active{border-bottom:2px solid #fd8c73;font-weight:600}.layout{max-width:1260px;margin:auto;padding:30px;display:grid;grid-template-columns:245px minmax(0,1fr);gap:28px;align-items:start}.profile{padding-top:8px}.avatar{width:215px;height:215px;object-fit:cover;object-position:36% 35%;border-radius:50%;border:1px solid var(--line);margin-bottom:18px}.profile h1{font-size:24px;margin:0;font-weight:600;line-height:1.3}.username{color:var(--muted);font-size:20px;font-weight:300;margin:0 0 20px}.bio{font-size:14px;line-height:1.6;margin:0 0 18px}.profile-note{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:15px}.profile-button{display:block;text-align:center;background:var(--sub);color:var(--ink);padding:6px;border:1px solid var(--line);border-radius:6px;font-weight:500}.readme-box{border:1px solid var(--line);border-radius:6px;overflow:hidden;min-width:0}.readme-label{display:flex;align-items:center;gap:8px;padding:18px 24px 0;font-size:11px}.readme-label span{color:var(--muted)}.readme-label i{margin-left:auto;font-style:normal;color:var(--muted);font-family:monospace}.markdown-body{padding:23px 28px 26px;font-size:16px;line-height:1.55;overflow-wrap:break-word}.markdown-body[hidden]{display:none}.markdown-body img{max-width:100%;box-sizing:content-box;vertical-align:middle}.markdown-body picture{display:block;margin:0 0 16px}.markdown-body>picture:first-child{margin-bottom:20px}.markdown-body p{margin:0 0 16px}.markdown-body a:not(:has(img)){text-decoration:underline}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid var(--line);margin:24px 0 16px;line-height:1.25}.markdown-body h1{font-size:2em}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em;line-height:1.25;margin:24px 0 16px}.markdown-body table{border-spacing:0;border-collapse:collapse;max-width:100%;margin:0 0 16px;font-size:14px;display:block;overflow:auto}.markdown-body th,.markdown-body td{padding:7px 13px;border:1px solid var(--line)}.markdown-body th{font-weight:600;text-align:left}.markdown-body tr:nth-child(2n){background:var(--sub)}.markdown-body blockquote{margin:0 0 16px;padding:0 1em;color:var(--muted);border-left:.25em solid var(--line)}.markdown-body pre{padding:16px;background:var(--sub);border-radius:6px;font-size:85%;overflow:auto}.markdown-body code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.markdown-body sub{font-size:12px}.markdown-body details{margin:16px 0}.markdown-body summary{cursor:pointer;font-size:13px}.markdown-body details[open] summary{margin-bottom:14px}.footnote{max-width:1260px;padding:0 30px 40px;margin:auto;font-size:11px;color:var(--muted);text-align:right}.still-mode .animated-art{display:none}.static-art{display:none}.still-mode .static-art{display:block}
+@media(max-width:950px){.layout{grid-template-columns:185px minmax(0,1fr);gap:20px;padding:24px}.avatar{width:170px;height:170px}.profile h1{font-size:21px}.username{font-size:17px}.markdown-body{padding:22px 20px;font-size:15px}.tabs{padding-left:24px}}@media(max-width:700px){.topbar{padding:13px 17px;min-height:58px}.topbar>span:last-child{display:none}.controls{padding:12px 17px;gap:10px}.controls-label{font-size:10px;flex-basis:100%}.control{padding:6px 10px;font-size:11px}.tabs{padding:6px 16px 0;gap:25px}.tabs>a{font-size:12px}.layout{display:block;padding:18px 12px}.profile{display:grid;grid-template-columns:66px 1fr;gap:0 15px;padding:0 7px;margin-bottom:23px}.avatar{width:66px;height:66px;grid-row:1/4;margin:0}.profile h1{font-size:20px;align-self:end}.username{font-size:15px;margin:0;align-self:start}.bio{font-size:12px;grid-column:1/3;margin:13px 0 0}.profile-button,.profile-note{display:none}.readme-label{padding:14px 15px 0;font-size:9px}.markdown-body{padding:16px 14px;font-size:14px}.markdown-body h3{font-size:19px}.markdown-body table{font-size:11px}.markdown-body td,.markdown-body th{padding:7px 9px}.markdown-body sub{font-size:10px}.markdown-body p img[height="36"]{height:30px;width:auto;margin-bottom:5px}.markdown-body p img[width="230"]{height:43px;width:207px;margin-bottom:7px}.footnote{font-size:10px;text-align:left;padding:0 17px 25px}}
+</style></head><body>
+<header class="topbar"><span class="mark">&lt;/&gt;</span><strong>bluedinosaur233</strong><span>PREVIEW</span></header>
+<div class="controls"><span class="controls-label">本地预览</span><div class="toggle-group" role="group" aria-label="预览版本"><button class="control active" id="v2" aria-pressed="true">新版</button><button class="control" id="original" aria-pressed="false">原版</button></div><div class="toggle-group"><button class="control" id="motion" aria-pressed="false">暂停动效</button><button class="control" id="theme" aria-pressed="false">深色预览</button></div></div>
+<nav class="tabs" aria-label="个人主页导航"><a class="active" href="#readme">Overview</a><a href="https://github.com/bluedinosaur233?tab=repositories" target="_blank" rel="noopener">Repositories ↗</a></nav>
+<div class="layout"><aside class="profile"><img class="avatar" src="https://avatars.githubusercontent.com/u/86362169?v=4" alt="Ancuo Loewe"><h1>Ancuo Loewe</h1><p class="username">bluedinosaur233</p><a class="profile-button" href="https://github.com/bluedinosaur233" target="_blank" rel="noopener">View GitHub profile ↗</a></aside><main class="readme-box" id="readme"><div class="readme-label"><strong>bluedinosaur233</strong><span>/ README.md</span></div><article class="markdown-body" id="content-v2"><picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/hero-mobile.png?v=084e2f4b26">
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/hero-mobile.webp?v=08776b1b3c" type="image/webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/hero.png?v=d06f1fe2d8">
+  <img src="./assets/profile-v2/hero.webp?v=f1c640cdca" width="100%" alt="Welcome to my world.">
+</picture>
+
+<p align="center">
+  <a href="https://github.com/bluedinosaur233?tab=repositories"><img src="./assets/profile-v2/explore.svg?v=8cc38cdb65" width="230" height="48" alt="Explore repositories"></a>
+  &nbsp;
+  <a href="https://github.com/bluedinosaur233"><img src="./assets/profile-v2/profile.svg?v=ce86853a36" width="230" height="48" alt="Meet Ancuo Loewe on GitHub"></a>
+</p>
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/poem-mobile-static.svg?v=fe18c45889">
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/poem-mobile.svg?v=0498eaa4be">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/poem-static.svg?v=bc8418cab5">
+  <img src="./assets/profile-v2/poem.svg?v=78a8d8d0f8" width="100%" alt="逐字轮播：醉后不知天在水，满船清梦压星河；黑客也是创作者，与画家、建筑师、作家一样；最不安神晴又复雨.；67；Maybe not today；寻找之物总是近在咫尺.">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-about-mobile.svg?v=d976d01275">
+  <img src="./assets/profile-v2/heading-about.svg?v=f5886e6b91" width="100%" alt="About me">
+</picture>
+
+<h3>Hi, I&#39;m Ancuo Loewe.</h3>
+<p>I&#39;m exploring <strong>AI Agents and full-stack development</strong>.</p>
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-toolkit-mobile.svg?v=d098b2a06f">
+  <img src="./assets/profile-v2/heading-toolkit.svg?v=b5a6886d9a" width="100%" alt="Toolkit">
+</picture>
+
+<p>
+  <img src="./assets/profile-v2/typescript.svg?v=237f72aaa0" width="56" height="56" alt="TypeScript" title="TypeScript">
+  <img src="./assets/profile-v2/javascript.svg?v=8ba9f89783" width="56" height="56" alt="JavaScript" title="JavaScript">
+  <img src="./assets/profile-v2/c.svg?v=f2fd7bedd1" width="56" height="56" alt="C" title="C">
+  <img src="./assets/profile-v2/cpp.svg?v=e5de1dd502" width="56" height="56" alt="C++" title="C++">
+  <img src="./assets/profile-v2/java.svg?v=b5dd08d4ad" width="56" height="56" alt="Java" title="Java">
+</p>
+<p>
+  <img src="./assets/profile-v2/react.svg?v=8e38e9574e" width="56" height="56" alt="React" title="React">
+  <img src="./assets/profile-v2/nextjs.svg?v=e8e656e31e" width="56" height="56" alt="Next.js" title="Next.js">
+  <img src="./assets/profile-v2/nodejs.svg?v=ef582098d8" width="56" height="56" alt="Node.js" title="Node.js">
+  <img src="./assets/profile-v2/openai.svg?v=972ce0c6ed" width="56" height="56" alt="OpenAI API" title="OpenAI API">
+  <img src="./assets/profile-v2/git.svg?v=4fe45eb8fa" width="56" height="56" alt="Git" title="Git">
+</p>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-activity-mobile.svg?v=e06806961d">
+  <img src="./assets/profile-v2/heading-activity.svg?v=11a5f26e9b" width="100%" alt="GitHub activity">
+</picture>
+
+<a href="https://github.com/bluedinosaur233?tab=overview">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/activity-mobile-static.svg?v=27fb119a72">
+    <source media="(max-width: 600px)" srcset="./assets/profile-v2/activity-mobile.svg?v=29468bd5c1">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/activity-static.svg?v=6dae757c81">
+    <img src="./assets/profile-v2/activity.svg?v=e7dae4a295" width="100%" alt="bluedinosaur233 的 GitHub 贡献日历：过去一年贡献数、近 30 天贡献数及活跃天数">
+  </picture>
+</a>
+</article><article class="markdown-body" id="content-original" hidden><div align="center">
+  <img src="./assets/anime-hero.jpg" width="100%" alt="Anime girl resting in a sunlit forest" />
+
+  <h1>Hi, I'm Ancuo Loeve ✦</h1>
+
+  <img src="https://readme-typing-svg.demolab.com?font=Nunito&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=900&amp;color=8D7CC2&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=AI+Agent+Explorer+%E2%9C%A6;Full-stack+Learner+%E2%9C%A6;Building+my+own+little+world..." alt="Typing animation introducing Ancuo Loeve" />
+
+  <p><strong>黑客也是创作者，与画家、建筑师、作家一样。</strong></p>
+
+  <p>
+    <a href="https://github.com/bluedinosaur233?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Repositories-Explore-6D72B8?style=flat-square&amp;logo=github&amp;logoColor=white" /></a>
+    <img alt="Current focus" src="https://img.shields.io/badge/Focus-AI_Agent-F3A7B9?style=flat-square&amp;logo=openai&amp;logoColor=white" />
+    <img alt="Learning in public" src="https://img.shields.io/badge/Status-Learning_in_public-78A99B?style=flat-square&amp;logo=bookstack&amp;logoColor=white" />
+  </p>
+
+  <img src="./assets/sparkle-divider.svg" width="72%" alt="Animated pastel sparkle divider" />
+</div>
+
+<h2>🌸 About Me</h2>
+<p>Hi, I&#39;m <strong>Ancuo Loeve</strong>, a builder who learns by making things.</p>
+<p>I&#39;m currently exploring <strong>AI Agents and full-stack development</strong> while strengthening my computer science fundamentals. I enjoy turning ideas into clear, reliable tools that people can actually use.</p>
+<blockquote>
+<p>🌱 Current quest:  Learn how to build an agent<br>
+🪄 Favorite challenge: Turn daily issues into simple, useful tools<br>
+✨ Learning loop: Build small · Verify often · Keep learning</p>
+</blockquote>
+<h2>🎐 Character Card</h2>
+<pre><code class="language-yaml">name: Ancuo Loeve
+class: Beginner / Learner
+current_quest: AI-powered personal tools
+interests:
+  - AI Agents
+  - Full-stack development
+  - Computer science fundamentals
+motto: &quot;Never give up on your dreams.&quot;
+</code></pre>
+<h2>🪄 Tech Spellbook</h2>
+<p align="center">
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-6D72B8?style=flat-square&amp;logo=typescript&amp;logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-343752?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" />
+  <img alt="C" src="https://img.shields.io/badge/C-6686B8?style=flat-square&amp;logo=c&amp;logoColor=white" />
+  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-7A78B8?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-D77878?style=flat-square&amp;logo=openjdk&amp;logoColor=white" />
+  <br>
+  <img alt="React" src="https://img.shields.io/badge/React-7386C6?style=flat-square&amp;logo=react&amp;logoColor=white" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-343752?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-7FA276?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" />
+  <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-8A78AA?style=flat-square&amp;logo=openai&amp;logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-D77878?style=flat-square&amp;logo=git&amp;logoColor=white" />
+</p>
+
+<div align="center">
+  <img src="./assets/sparkle-divider.svg" width="72%" alt="Animated pastel sparkle divider" />
+  <p>
+    <i>日复一日，必有精进</i><br>
+    <sub>Thanks for visiting · See you around</sub>
+  </p>
+</div>
+</article></main></div>
+<script>
+const select = (version) => {for(const id of ['v2','original']){document.querySelector('#content-'+id).hidden=id!==version;document.querySelector('#'+id).classList.toggle('active',id===version);document.querySelector('#'+id).setAttribute('aria-pressed',String(id===version));}document.querySelector('#motion').hidden=version==='original';};
+document.querySelector('#v2').onclick=()=>select('v2');document.querySelector('#original').onclick=()=>select('original');
+document.querySelector('#theme').onclick=()=>{const dark=document.body.classList.toggle('dark');document.querySelector('#theme').textContent=dark?'浅色预览':'深色预览';document.querySelector('#theme').setAttribute('aria-pressed',String(dark));};
+let paused=matchMedia('(prefers-reduced-motion: reduce)').matches;
+const art=[...document.querySelectorAll('#content-v2 picture img')].filter(img=>['/hero.','/poem.','/activity.'].some(name=>img.getAttribute('src').includes(name))).map(img=>({img,original:img.getAttribute('src'),sources:[...img.closest('picture').querySelectorAll('source')].map(source=>({source,original:source.getAttribute('srcset')}))}));
+const stillPath=(path)=>{const [base,query]=path.split('?');const suffix=query?'?'+query:'';if(base.endsWith('.webp'))return base.slice(0,-5)+'.png'+suffix;if(base.endsWith('.gif'))return base.slice(0,-4)+'.png'+suffix;if((base.includes('/poem')||base.includes('/activity'))&&!base.includes('-static'))return base.slice(0,-4)+'-static.svg'+suffix;return path;};
+const updateMotion=()=>{for(const item of art){item.img.src=paused?stillPath(item.original):item.original;for(const entry of item.sources)entry.source.srcset=paused?stillPath(entry.original):entry.original;}document.querySelector('#motion').textContent=paused?'播放动效':'暂停动效';document.querySelector('#motion').setAttribute('aria-pressed',String(paused));};
+document.querySelector('#motion').onclick=()=>{paused=!paused;updateMotion();};updateMotion();
+</script></body></html>

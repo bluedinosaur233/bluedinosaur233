@@ -1,64 +1,68 @@
-<div align="center">
-  <img src="./assets/anime-hero.jpg" width="100%" alt="Anime girl resting in a sunlit forest" />
-
-  <h1>Hi, I'm Ancuo Loewe ✦</h1>
-
-  <img src="https://readme-typing-svg.demolab.com?font=Nunito&amp;weight=600&amp;size=22&amp;duration=2600&amp;pause=900&amp;color=8D7CC2&amp;center=true&amp;vCenter=true&amp;width=650&amp;lines=AI+Agent+Explorer+%E2%9C%A6;Full-stack+Learner+%E2%9C%A6;Building+my+own+little+world..." alt="Typing animation introducing Ancuo Loeve" />
-
-  <p><strong>黑客也是创作者，与画家、建筑师、作家一样。</strong></p>
-
-  <p>
-    <a href="https://github.com/bluedinosaur233?tab=repositories"><img alt="Repositories" src="https://img.shields.io/badge/Repositories-Explore-6D72B8?style=flat-square&amp;logo=github&amp;logoColor=white" /></a>
-    <img alt="Current focus" src="https://img.shields.io/badge/Focus-AI_Agent-F3A7B9?style=flat-square&amp;logo=openai&amp;logoColor=white" />
-    <img alt="Learning in public" src="https://img.shields.io/badge/Status-Learning_in_public-78A99B?style=flat-square&amp;logo=bookstack&amp;logoColor=white" />
-  </p>
-
-  <img src="./assets/sparkle-divider.svg" width="72%" alt="Animated pastel sparkle divider" />
-</div>
-
-## 🌸 About Me
-
-Hi, I'm **Ancuo Loewe**, a builder who learns by making things.
-
-I'm currently exploring **AI Agents and full-stack development** while strengthening my computer science fundamentals. I enjoy turning ideas into clear, reliable tools that people can actually use.
-
-> 🌱 Current quest:  Learn how to build an agent<br>
-> 🪄 Favorite challenge: Turn daily issues into simple, useful tools<br>
-> ✨ Learning loop: Build small · Verify often · Keep learning
-
-## 🎐 Character Card
-
-```yaml
-name: Ancuo Loewe
-class: Beginner / Learner
-current_quest: AI-powered personal tools
-interests:
-  - AI Agents
-  - Full-stack development
-  - Computer science fundamentals
-motto: "Never give up on your dreams."
-```
-
-## 🪄 Tech Spellbook
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/hero-mobile.png">
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/hero-mobile.webp" type="image/webp">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/hero.png">
+  <img src="./assets/profile-v2/hero.webp" width="100%" alt="Welcome to my world.">
+</picture>
 
 <p align="center">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-6D72B8?style=flat-square&amp;logo=typescript&amp;logoColor=white" />
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-343752?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" />
-  <img alt="C" src="https://img.shields.io/badge/C-6686B8?style=flat-square&amp;logo=c&amp;logoColor=white" />
-  <img alt="C++" src="https://img.shields.io/badge/C%2B%2B-7A78B8?style=flat-square&amp;logo=cplusplus&amp;logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/Java-D77878?style=flat-square&amp;logo=openjdk&amp;logoColor=white" />
-  <br>
-  <img alt="React" src="https://img.shields.io/badge/React-7386C6?style=flat-square&amp;logo=react&amp;logoColor=white" />
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-343752?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" />
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-7FA276?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" />
-  <img alt="OpenAI API" src="https://img.shields.io/badge/OpenAI_API-8A78AA?style=flat-square&amp;logo=openai&amp;logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-D77878?style=flat-square&amp;logo=git&amp;logoColor=white" />
+  <a href="https://github.com/bluedinosaur233?tab=repositories"><img src="./assets/profile-v2/explore.svg" width="230" height="48" alt="Explore repositories"></a>
+  &nbsp;
+  <a href="https://github.com/bluedinosaur233"><img src="./assets/profile-v2/profile.svg" width="230" height="48" alt="Meet Ancuo Loewe on GitHub"></a>
 </p>
 
-<div align="center">
-  <img src="./assets/sparkle-divider.svg" width="72%" alt="Animated pastel sparkle divider" />
-  <p>
-    <i>日复一日，必有精进</i><br>
-    <sub>Thanks for visiting · See you around</sub>
-  </p>
-</div>
+<picture>
+  <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/poem-mobile-static.svg">
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/poem-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/poem-static.svg">
+  <img src="./assets/profile-v2/poem.svg" width="100%" alt="逐字轮播：醉后不知天在水，满船清梦压星河；黑客也是创作者，与画家、建筑师、作家一样；最不安神晴又复雨.；67；Maybe not today；寻找之物总是近在咫尺.">
+</picture>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-about-mobile.svg">
+  <img src="./assets/profile-v2/heading-about.svg" width="100%" alt="About me">
+</picture>
+
+### Hi, I'm Ancuo Loewe.
+
+I'm exploring **AI Agents and full-stack development**.
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-toolkit-mobile.svg">
+  <img src="./assets/profile-v2/heading-toolkit.svg" width="100%" alt="Toolkit">
+</picture>
+
+<p>
+  <img src="./assets/profile-v2/typescript.svg" width="56" height="56" alt="TypeScript" title="TypeScript">
+  <img src="./assets/profile-v2/javascript.svg" width="56" height="56" alt="JavaScript" title="JavaScript">
+  <img src="./assets/profile-v2/c.svg" width="56" height="56" alt="C" title="C">
+  <img src="./assets/profile-v2/cpp.svg" width="56" height="56" alt="C++" title="C++">
+  <img src="./assets/profile-v2/java.svg" width="56" height="56" alt="Java" title="Java">
+</p>
+<p>
+  <img src="./assets/profile-v2/react.svg" width="56" height="56" alt="React" title="React">
+  <img src="./assets/profile-v2/nextjs.svg" width="56" height="56" alt="Next.js" title="Next.js">
+  <img src="./assets/profile-v2/nodejs.svg" width="56" height="56" alt="Node.js" title="Node.js">
+  <img src="./assets/profile-v2/openai.svg" width="56" height="56" alt="OpenAI API" title="OpenAI API">
+  <img src="./assets/profile-v2/git.svg" width="56" height="56" alt="Git" title="Git">
+</p>
+
+<br>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/profile-v2/heading-activity-mobile.svg">
+  <img src="./assets/profile-v2/heading-activity.svg" width="100%" alt="GitHub activity">
+</picture>
+
+<a href="https://github.com/bluedinosaur233?tab=overview">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/activity-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="./assets/profile-v2/activity-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-v2/activity-static.svg">
+    <img src="./assets/profile-v2/activity.svg" width="100%" alt="bluedinosaur233 的 GitHub 贡献日历：过去一年贡献数、近 30 天贡献数及活跃天数">
+  </picture>
+</a>

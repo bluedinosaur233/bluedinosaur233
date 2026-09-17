@@ -1,0 +1,12 @@
+- `typescript.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/typescript/typescript-original.svg
+- `javascript.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/javascript/javascript-original.svg
+- `c.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/c/c-original.svg
+- `cpp.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/cplusplus/cplusplus-original.svg
+- `java.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/java/java-original.svg
+- `react.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/react/react-original.svg
+- `nextjs.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nextjs/nextjs-original.svg
+- `nodejs.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/nodejs/nodejs-original.svg
+- `git.svg`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/icons/git/git-original.svg
+- `openai.svg`: https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/openai.svg
+- `DEVICON-LICENSE`: https://cdn.jsdelivr.net/gh/devicons/devicon@v2.17.0/LICENSE
+- `SIMPLE-ICONS-LICENSE`: https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/LICENSE.md
